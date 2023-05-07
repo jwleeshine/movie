@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/movie" Component={Home} />
         <Route path="/movie/about" Component={About} />
-        <Route path="/movie/detail" Component={Detail} />
+        <Route path="/detail" Component={Detail} />
       </Routes>
     </BrowserRouter>
   );
