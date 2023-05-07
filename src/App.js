@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path="/" Component={Home} />
+        <Route path="/movie" Component={Home} />
         <Route path="/about" Component={About} />
         <Route path="/movie-detail" Component={Detail} />
       </Routes>
