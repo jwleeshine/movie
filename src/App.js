@@ -12,8 +12,8 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/movie" Component={Home} />
-        <Route path="/about" Component={About} />
-        <Route path="/movie-detail" Component={Detail} />
+        <Route path="/movie/about" Component={About} />
+        <Route path="/movie/detail" Component={Detail} />
       </Routes>
     </BrowserRouter>
   );
